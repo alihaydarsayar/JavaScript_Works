@@ -7,8 +7,43 @@
 
 body {
     background-image: linear-gradient(120deg, #006816, #00584a);
+    /* background-color: black; */
     color: white;
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
+
+}
+
+header {
+    font-size: 1.3rem;
+    font-style: normal;
+}
+
+header,
+form {
+    min-height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input,
+form button {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: rgb(255, 255, 255);
+}
+
+form button {
+    color: rgb(0, 153, 255);
+    /* background: rgb(0, 187, 62); */
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
 
 }
